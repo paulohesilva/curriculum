@@ -1,0 +1,176 @@
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+%%% modified for Karol Kozioł for ShareLaTeX use
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+%{Fontin.otf}
+
+%%%
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+%WATERMARK TEST [**not part of a CV**]---------------
+%\font\wm=''Baskerville:color=787878'' at 8pt
+%\font\wmweb=''Baskerville:color=FF1493'' at 8pt
+%{\wm 
+%	\begin{textblock}{1}(0,0)
+%		\rotatebox{-90}{\parbox{500mm}{
+%			Typeset by Alessandro Plasmati with \XeTeX\  \today\ for 
+%			{\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
+%		}
+%	}
+%	\end{textblock}
+%}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Paulo Henrique \textsc{da Silva}
+	}\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+\section{Personal Data}
+
+\begin{tabular}{rl}
+    \textsc{Place and Date} & Florianópolis, Brazil  | 24 Janeiro de 2017 \\
+    \textsc{Phone:}     & +55 048 996912206\\
+    \textsc{Skype:}     & paulohesilva\\
+    \textsc{email:}     & \href{mailto:phs.paulohenriquesilva@gmail.com}{phs.paulohenriquesilva@gmail.com}
+\end{tabular}
+
+%Section: Work Experience at the top
+\section{Work Experience}
+\begin{tabular}{r|p{11cm}}
+
+ \emph{Current} & Software Architect at \textsc{Catarina Touch} , Florianópolis - SC\\\textsc{Jan 2013}&\emph{Mobile App Studio Trading}\\&\footnotesize{Responsible for defining what technologies, frameworks to be used in projects, analyze and develop APIs using Python / Django and develop applications with angularjs to manage APIs}\\\multicolumn{2}{c}{} \\
+ 
+ \textsc{Jan-Dez. 2012} & \textsC{System Analyst and Developer at \textsc{Módula Software}, Florianópolis - SC}\\&\footnotesize{Responsible for analyzing and developing web systems using Java and some frameworks such as JSF, Spring, PrimeFaces, Jasper, Hibernate, etc.}\\\multicolumn{2}{c}{} \\
+
+\textsc{Feb-Jun. 2012} & Computer Instructor at \textsc{CEBRAC}, Florianópolis - SC \\ &\emph{Brazilian Enterprise for professional courses}\\&\footnotesize{IT discipline of development and implementation in the course Adm - Administrative Full Wizard.}\\\multicolumn{2}{c}{} \\
+
+\textsc{Mar-Nov. 2011} & Developer at \textsc{DIGITRO}, Florianópolis - SC \\ &\emph{Large national company in the telecommunications and public security segment.}\\&\footnotesize{Web systems development in Java, GWT and Javascript.} \\\multicolumn{2}{c}{} \\
+
+\textsc{2009 - 2011} & Developer at \textsc{VH Soluções em T.I}, Florianópolis - SC \\ &\emph{Large software development companies in the public sector.}\\&\footnotesize{Responsible for analyzing and developing web systems using Java and some frameworks such as JSF, Spring, PrimeFaces, Jasper, Hibernate, etc.}\\\multicolumn{2}{c}{} \\
+
+\textsc{2004 - 2009} & IT Manager at \textsc{KM Comercio de Utlizades Domésticas}, Florianópolis - SC \\&\footnotesize{Support users on systems, applications, networks, and telecommunications and zeal for the hardware and software resources. Backing up, formatting equipment, installation of operating systems and software and assembly of computers and networks.}\\\multicolumn{2}{c}{} \\ 
+
+\end{tabular}
+
+%Section: Education
+\section{Education}
+
+\begin{tabular}{rl}	
+
+\textsc{Dez} 2016 a 2017 & postgraduate in \textsc{Engineering and Software Quality}, UNIVALI, Santa Catarina\\
+
+\end{tabular}
+
+
+\begin{tabular}{rl}	
+
+\textsc{Dez} 2008/2 a 2014 & Bachelor in \textsc{Computer Science}, UNIVALI, Santa Catarina\\
+&\normalsize \textsc{Advisor}: Prof. Michelle da Silva \textsc{Whangam}\\
+& Thesis: ``Smart Gateway for remote monitoring of industrial machinery''
+
+\end{tabular}
+
+%Section: Scholarships and additional info
+\section{Scholarships}
+\begin{tabular}{r|p{11cm}}
+
+\emph{2015/Current} & PaaS for smart machines monitoring and control - (This project also work with angularjs)\\
+&\footnotesize{This project aims to develop an innovative infrastructure for remote monitoring and control of industrial machines, combining the advantages of IoT and Cloud Computing. The main goal of the project is to improve the remote monitoring and control process of industrial machines, through a PaaS (Platform as a Service) that allows the reception of data and the development and deployment of web applications for monitoring and controlling smart machines.} \\\multicolumn{2}{c}{} \\
+
+\textsc{2013/2014} & Development of a Smart Gateway for monitoring of industrial machinery\\
+&\footnotesize{The project aims to monitor industrial machines that are used concepts of IOT.}\\\multicolumn{2}{c}{} \\
+
+\textsc{2011/2012} & Production of learning objects for software testing education\\
+&\footnotesize{The project proposes a way to help the software testing education using learning objects with different levels of granularity and focus on reusability of these objects in different educational contexts such as undergraduate program, business training, certifications, etc.}\\\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+%Section: Scholarships and additional info
+\section{Certificates}
+\begin{tabular}{rl}
+\textsc{Oracle}  & Oracle Certified Java Programmer 6 \\
+\textsc{Voffice/Globalcode} & {\textsc{AngularJS}\\
+\textsc{Voffice/Globalcode} & {\textsc{Certified Academy WEB}}\\
+\textsc{Fundação Bradesco} & {\textsc{HTML Basic/Advanced}\\
+\textsc{Fundação Bradesco} & {\textsc{Javascript}\\
+\textsc{FGV} & {\textsc{Fundamentals T.I}\\
+\textsc{SOS Computadores} & {\textsc{PHP}\\
+\textsc{Agile Code} & {\textsc{Clean Code}\\
+\end{tabular}
+
+%Section: Scholarships and additional info
+\section{Bibliographic production}
+\begin{tabular}{r|p{11cm}}
+
+\textsc{1} & SILVA, P. H.; DOMENECH, M. C. ; RAUTA, L. ; CANDIDO, R. ; WANGHAM, Michelle S. . Controle e Monitoramento Remoto de Máquinas Industriais por meio de Smart Gateway na Web das Coisas. In: Computer on the Beach, 2015, Florianópolis. Computer on the Beach 2015, 2015.\\\\\multicolumn{2}{c}{} \\
+
+\textsc{2} & SILVA, P. H.; BENITTI, F. B. V. ; ALBANO, E. L. . Objetos de aprendizagem para apoio ao ensino de teste de software. In: Computer on the Beach, 2013, Florianópolis. IV Computer on the Beach. p. 314-316.\\\\\multicolumn{2}{c}{} \\
+
+\textsc{3} & SILVA, P. H.; WANGHAM, Michelle S. ; COMUNELLO, E. . Desenvolvimento de um Smart Gateway para o Monitoramento de Máquinas Industriais. In: XIII Seminário de Iniciação Científica, 2014, Itajai. XIII Seminário de Iniciação Científica, 2014.\\\\\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+%Section: Scholarships and additional info
+\section{Additional information}
+\begin{tabular}{rl}
+\textsc{Set. 2015} & Volunteer in the translation into Portuguese of "Python For Informatics".\normalsize\\ &\emph{https://github.com/paulohesilva/py4inf-ptBR}\\
+\textsc{Oct. 2015}¨& First module od Python Integrated program for everyone - University of Michigan (Coursera)
+\end{tabular}
+
+%Section: Languages
+\section{Languages}
+\begin{tabular}{rl}
+ \textsc{Português:}&Mother Thongue\\
+\textsc{Inglês:}&Basic\\
+\end{tabular}
+
+\end{document}
