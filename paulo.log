@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.4.28)  29 APR 2017 13:23
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.4.28)  29 APR 2017 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -842,21 +842,21 @@ Overfull \hbox (5.5603pt too wide) in paragraph at lines 76--95
  []
 
 
-Overfull \hbox (80.85005pt too wide) in paragraph at lines 99--104
+Overfull \hbox (80.85005pt too wide) in paragraph at lines 99--103
 [][] 
  []
 
 [1
 
 ]
-Overfull \hbox (53.96005pt too wide) in paragraph at lines 106--113
+Overfull \hbox (48.96005pt too wide) in paragraph at lines 104--109
 [][] 
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.134 \textsc
+l.130 \textsc
              {Voffice/Globalcode} & {\textsc{Certified Academy WEB}}\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -865,7 +865,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.136 \textsc
+l.132 \textsc
              {Fundação Bradesco} & {\textsc{Javascript}\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -874,7 +874,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.137 \textsc
+l.133 \textsc
              {FGV} & {\textsc{Fundamentals T.I}\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -883,7 +883,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.138 \textsc
+l.134 \textsc
              {SOS Computadores} & {\textsc{PHP}\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -892,7 +892,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.139 \textsc
+l.135 \textsc
              {Agile Code} & {\textsc{Clean Code}\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -901,24 +901,24 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.140 \end
+l.136 \end
           {tabular}
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 [2]
-Overfull \hbox (1.98003pt too wide) in paragraph at lines 156--161
+Overfull \hbox (1.98003pt too wide) in paragraph at lines 152--157
 [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./paulo.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 169.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 165.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
  22200 strings out of 493589
