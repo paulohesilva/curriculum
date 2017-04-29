@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.4.28)  28 APR 2017 19:08
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.4.28)  29 APR 2017 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -823,13 +823,13 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 79.
+(Font)              <7> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 79.
+(Font)              <5> on input line 67.
 
 ! Undefined control sequence.
-l.92  \textsc{Jan-Dez. 2012} & \textsC
-                                      {System Analyst and Developer at \text...
+l.84  \textsc{Jan-Dez. 2012} & \textsC
+                                      {Analista de sistemas/Desenvolvedor na...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -837,27 +837,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (5.5603pt too wide) in paragraph at lines 88--103
+Overfull \hbox (5.5603pt too wide) in paragraph at lines 76--95
 [][] 
  []
 
 
-Overfull \hbox (64.45004pt too wide) in paragraph at lines 107--112
-[][] 
- []
-
-
-Overfull \hbox (17.23006pt too wide) in paragraph at lines 114--121
+Overfull \hbox (80.85005pt too wide) in paragraph at lines 99--104
 [][] 
  []
 
 [1
 
 ]
+Overfull \hbox (53.96005pt too wide) in paragraph at lines 106--113
+[][] 
+ []
+
 ! Missing } inserted.
 <inserted text> 
                 }
-l.142 \textsc
+l.134 \textsc
              {Voffice/Globalcode} & {\textsc{Certified Academy WEB}}\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -866,7 +865,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.144 \textsc
+l.136 \textsc
              {Fundação Bradesco} & {\textsc{Javascript}\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -875,7 +874,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.145 \textsc
+l.137 \textsc
              {FGV} & {\textsc{Fundamentals T.I}\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -884,7 +883,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.146 \textsc
+l.138 \textsc
              {SOS Computadores} & {\textsc{PHP}\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -893,7 +892,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.147 \textsc
+l.139 \textsc
              {Agile Code} & {\textsc{Clean Code}\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -902,33 +901,32 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.148 \end
+l.140 \end
           {tabular}
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-
-Overfull \hbox (82.05002pt too wide) in paragraph at lines 164--168
+[2]
+Overfull \hbox (1.98003pt too wide) in paragraph at lines 156--161
 [][] 
  []
 
-[2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (./paulo.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 176.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
  22200 strings out of 493589
  393875 string characters out of 6145556
- 421707 words of memory out of 5000000
+ 420707 words of memory out of 5000000
  25475 multiletter control sequences out of 15000+600000
  4112 words of font info for 29 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 46i,8n,48p,10418b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,8n,48p,10418b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on paulo.pdf (3 pages).
