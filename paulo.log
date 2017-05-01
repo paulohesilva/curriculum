@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.4.28)  29 APR 2017 13:59
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.4.28)  1 MAY 2017 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -828,7 +828,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 67.
 
 ! Undefined control sequence.
-l.84  \textsc{Jan-Dez. 2012} & \textsC
+l.86  \textsc{Jan-Dez. 2012} & \textsC
                                       {Analista de sistemas/Desenvolvedor na...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -837,22 +837,18 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (5.5603pt too wide) in paragraph at lines 76--95
+Overfull \hbox (27.98032pt too wide) in paragraph at lines 78--97
 [][] 
  []
 
 
-Overfull \hbox (80.85005pt too wide) in paragraph at lines 99--103
+Overfull \hbox (12.86032pt too wide) in paragraph at lines 101--109
 [][] 
  []
 
 [1
 
 ]
-Overfull \hbox (48.96005pt too wide) in paragraph at lines 104--109
-[][] 
- []
-
 ! Missing } inserted.
 <inserted text> 
                 }
@@ -927,6 +923,6 @@ Here is how much of TeX's memory you used:
  25475 multiletter control sequences out of 15000+600000
  4112 words of font info for 29 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 46i,8n,48p,10418b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,8n,48p,10418b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on paulo.pdf (3 pages).
